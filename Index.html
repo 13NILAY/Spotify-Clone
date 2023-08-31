@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="Style.css">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                    <div class="nav-option" style="opacity: 1;">
+                        <i class="fa-solid fa-house"></i>
+                        <a href="#"><b>Home</b></a>
+                    </div>
+                    <div class="nav-option">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <a href="#"><b>Search</b></a>
+                    </div>                 
+            </div>
+            <div class="library">
+                <div class="options">
+                    <div class="lib-option nav-option">
+                     <img src="library_icon.png">
+                     <a href="#">Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <div class="box-p1"><b>Create your first playlist</b></div>
+                        <div class="box-p2">It's easy, we'll help you</div>
+                        <button class="badge" style="color: black;">Create playlist</button>
+                    </div>
+                    <div class="box">
+                        <div class="box-p1"><b>Let's find some podcasts to follow</b></div>
+                        <div class="box-p2">We'll keep you updated on new episodes</div>
+                        <button class="badge" style="color: black;">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+              <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                    <img src="backward_icon.png">
+                    <img src="forward_icon.png" class="hide">
+                </div>
+                <div class="sticky-nav-options">
+                    <button class="badge nav-item hide" style="color: black;">Explore Prenium</button>
+                    <button class="badge nav-item dark-badge"><i class="fa-regular fa-circle-down" style="margin-right:5px ;"></i>Install App</button>
+                    <i class="fa-regular fa-user"></i>
+                </div>
+            </div>
+             
+                <h2><b>Recently Played</b></h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="card1img.jpeg" class="card-img">
+                        <p class="card-title" style="color: white;">Top 50 - Global</p>
+                        <p class="card-info" style="color: white;">Your daily updates of the most played tracks...</p>
+                    </div>
+                </div>
+
+                <h2><b>Trending now near you</b></h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="Untitled 1.jpg" class="card-img">
+                        <p class="card-title" style="color: white;">Zinda Banda-Jawan</p>
+                        <p class="card-info" style="color: white;">2023 . Anirudh Ravichandra ,Irshad Kamil</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="Gadar.jpg" class="card-img">
+                        <p class="card-title" style="color: white;">Udd Jaa Kaale Kaava Tere </p>
+                        <p class="card-info" style="color: white;">2023 . By Urvi Singh</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="card2img.jpeg" class="card-img">
+                        <p class="card-title" style="color: white;">Mahiye Jinna Sohna</p>
+                        <p class="card-info" style="color: white;">2023 . Darshan Raval</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="card3img.jpeg" class="card-img">
+                        <p class="card-title" style="color: white;">Mere Pass Tum Ho</p>
+                        <p class="card-info" style="color: white;">2022 . Silent Ocean</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="card4img.jpeg" class="card-img">
+                        <p class="card-title" style="color: white;">Naa Ready </p>
+                        <p class="card-info" style="color: white;">2023 . Anirudh Ravichand..</p>
+                    </div>
+
+
+                </div>
+
+                <h2><b>Sound of India</b></h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="Mumbai.png" class="card-img">
+                        <p class="card-title" style="color: white;">The Sound Of Mu..</p>
+                        <p class="card-info" style="color: white;">The songs that define, unite and distinguish Mu...</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="Kolkata.png" class="card-img">
+                        <p class="card-title" style="color: white;">The Sound Of Ko..</p>
+                        <p class="card-info" style="color: white;">The songs that define, unite and distinguish Ko...</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="Delhi.png" class="card-img">
+                        <p class="card-title" style="color: white;">The Sound Of Delhi</p>
+                        <p class="card-info" style="color: white;">The songs that define, unite and distinguish De...</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="Bengaluru.png" class="card-img">
+                        <p class="card-title" style="color: white;">The Sound Of Be..</p>
+                        <p class="card-info" style="color: white;">The songs that define, unite and distinguish Be...</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="Chennai.png" class="card-img">
+                        <p class="card-title" style="color: white;">The Sound Of Ch..</p>
+                        <p class="card-info" style="color: white;">The songs that define, unite and distinguish Ch...</p>
+                    </div>
+
+                </div>
+                
+                <div class="footer">
+                    <div class="line"></div>
+                </div>
+
+        </div>
+        <div class="music-player sticky-bottom">
+            <div class="album">
+                <img src="album_picture.jpeg" style="padding-: 0.5rem 0.5rem; height: 60px; width: 60px;">
+                <div class="album-text">
+                    <p style="font-weight: 600;">Daylight</p>
+                    <p style="font-size: 0.75rem ; opacity: 0.7;">David Kushner</p>
+                </div>
+                <div class="album-icon">
+                    <img src="album_icon1.png" style="height: 1.75rem; margin-right:0.75rem; opacity: 0.7 ;">
+                    <img src="album_icon2.png" style="height: 1.75rem;">
+                </div>
+                
+
+            </div>
+            <div class="player">
+                <div class="player-controls">
+                    <img src="player_icon1.png" class="player-control-icon">
+                    <img src="player_icon2.png" class="player-control-icon">
+                    <img src="player_icon3.png" class="player-control-icon equal">
+                    <img src="player_icon4.png" class="player-control-icon">
+                    <img src="player_icon5.png" class="player-control-icon">
+
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time">00:00 &nbsp; &nbsp;</span>
+                    <input type="range" min="0" max="100" class="progress-bar" step="1" >
+                    <div class="tot-time">&nbsp; &nbsp;3:33</div>
+                </div>
+            </div>
+            <div class="controls">
+                <img src="controls_icon1.png" class="controls-img">
+                <img src="controld_icon2.png" class="controls-img">
+                <img src="controls_icon3.png" class="controls-img" style="height: 1.4rem; opacity: 0.7;">
+                <img src="controls_icon4.png" class="controls-img" style="height: 1.2rem; opacity: 0.7;">
+                <img src="controls_icon5.png" class="controls-img">
+                <input type="range"  min="0" max="100" class="progress-bar-2" step="1" >
+            </div>
+        </div>
+    </div>
+</body>
+</html>
